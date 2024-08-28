@@ -1,0 +1,111 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    max-width:1320px;
+    margin:auto;
+    left:50%;
+    translate: transform(-50%,-50%);
+    padding-top: 7%;
+    
+}
+body{
+    background-color: #8EC5FC;
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+    
+
+}
+.d-flex{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.contact{
+   
+}
+.contact-detail{
+    height:700px;
+    width:50%;
+   background-color: aliceblue; 
+   border-radius: 4%;
+}
+.one{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3%;
+    font-size: 35px;
+    color:darkblue;
+    font-weight: 600;
+}
+.two{
+    display: flex;
+     justify-content: center;
+     padding-top:2%;
+     color:darkblue;
+     font-weight:500;
+     padding-bottom: 10%;
+}
+
+.name{
+    padding-top: 20%;
+}
+.d-flex1{
+    display: flex;
+    column-gap: 50px;
+    justify-content: center;
+    flex-wrap:wrap ;
+}
+input{
+    padding: 10px;
+    border-color:gray;
+}
+
+.four{
+    padding-top:5%;
+    display: flex;
+    padding-left: 2%;
+}
+label{
+    display: flex;
+  
+    align-items: center;
+}
+textarea{
+    width: 100%;;
+}
+.contact-form{
+padding-bottom: 4%;
+    width:70%;
+    background-color: aliceblue;
+    padding-top: 2%;
+    margin:auto;
+   
+}
+.new-label{
+    padding-left: 0px;
+    padding-bottom: 2%;
+}
+.three{
+    font-size: 15px;
+    font-weight: 600;
+
+}
+input{
+    width:100%;
+  
+}
+
+.fifth{
+    padding-top: 20px;
+}
+button{
+    width:100%;
+    background-color: blue;;
+    color:white;
+    padding: 5px;
+    border-radius: 6%;;
+}

@@ -1,0 +1,111 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.container{
+    max-width:1320px;
+    margin:auto;
+
+}
+.d-flex{
+    display: flex;
+    justify-content: center;
+    
+    flex-wrap: wrap;
+}
+.footer{
+    width:100%;
+    background-color: rgb(2, 2, 54);
+    color:white;
+    padding-bottom: 20px;
+       margin:20px 0px;
+    border:1px solid black;
+  
+}
+.footer1{
+    width:25%;
+  
+
+
+}
+.one{
+    padding-top: 60px;
+    padding-left: 50px;
+    display: flex;
+
+    align-items: center;
+}
+ul{
+    list-style: none;
+    padding-top: 30px;
+}
+li{
+    padding: 20px 0px 20px 0px;
+    padding-left: 50px;
+    
+}
+li:hover{
+    color:orange;
+    
+}
+a{
+    text-decoration: none;
+    color:white
+}
+.two{
+    padding: 30px 0px 30px 40px;
+}
+input{
+    padding: 5px;
+    width:70%;
+}
+button{
+    padding: 5px;
+    background-color: rgb(228, 151, 10);
+    color:white;
+}
+button:hover{
+    background-color: orange;
+}
+
+.icon{
+    padding: 0px 0px 30px 40px;
+    display: flex;
+    column-gap: 20px;
+    
+}
+.fa-whatsapp{
+    font-size: 25px;
+    color:lightgreen;
+}
+.fa-instagram{
+    font-size: 25px;
+    color:red;
+}
+.fa-square-youtube{
+    font-size: 25px;
+    color:red;
+
+}
+.fa-facebook{
+    font-size: 25px;
+    color:skyblue;
+}
+.fa-linkedin{
+    font-size:25px;
+    color:skyblue;
+
+}
+.three{
+   padding: 10px 0px 20px 40px; 
+}
+.four{
+    color:aliceblue
+}
+.fifth
+{
+    padding-left: 40px;
+}

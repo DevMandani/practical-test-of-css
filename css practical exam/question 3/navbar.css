@@ -1,0 +1,85 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    
+    margin: 0px;
+}
+
+
+.container{
+    
+    margin:auto;
+}
+.navbar{
+    background-color: #000035;
+  
+  padding-bottom: 1%;
+}
+.d-flex{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.one{
+    color:white;
+    padding:25px 0px 30px 50px ;
+    font-size: 30px;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    display: flex;
+}
+.home{
+    display: flex;
+}
+.nav-1{
+    width:20%;
+
+
+}
+
+.nav-2{
+    width:60%;
+
+}
+.nav-3{
+    width:20%;
+
+}
+
+.three{
+    display: flex;
+    justify-content: center;
+    color:white;
+    text-align: center;
+}
+b{
+    color:white;
+    line-height: 5;
+    padding-left: 10%;
+    font-size: 20px;
+    font-weight: 500;
+}
+a{
+    text-decoration:none ;
+}
+b:hover{
+   color: orange;
+}
+.other-dropdown{
+    padding-top: 10%;;
+}
+.four{
+    color:white;
+    font-size: 20px;
+    padding: 20px 0px 0px 100px;
+}
+.option{
+    padding-left: 110px;
+    padding-top: 1%;
+
+}
+select{
+    width:60%;
+    padding: 5px 0px 5px 20px;
+}
